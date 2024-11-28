@@ -7,6 +7,7 @@ const App=()=>{
   const Data = useSelector((state)=>state.todo.task);
 
   console.log(Data);
+
   const dispatch = useDispatch();
   const txtDataAdd=()=>{
     dispatch(addData(data))
@@ -32,6 +33,8 @@ const App=()=>{
   onChange={(e)=>{setData(e.target.value)}}/>
   <button onClick={txtDataAdd}>Add</button>
   <hr/>
+
+  
   <table>
     <tr>
     <td>Sno</td>
