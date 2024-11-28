@@ -33,7 +33,7 @@ const App=()=>{
   onChange={(e)=>{setData(e.target.value)}}/>
   <button onClick={txtDataAdd}>Add</button>
   <hr/>
-
+ 
   
   <table>
     <tr>
